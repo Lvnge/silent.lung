@@ -1,0 +1,36 @@
+.media-container {
+  width: 800px;
+  height: 100%;
+  background-color: #eaebec;
+  border-radius: 0.75rem;
+  align-items: center;
+}
+.media-container a {
+  text-decoration: none;
+}
+.border-container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.contactme-container {
+  text-align: justify;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.contactme-container h2 {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  background-color: #f2f3f4;
+  border-radius: 0.375rem;
+  border: 2px solid #d7d8d9;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}

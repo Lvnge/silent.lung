@@ -5,6 +5,25 @@
   box-sizing: border-box;
 }
 
+:root {
+  /*colors*/
+  --dark: #373d3f;
+  --light: #f2f3f4;
+  --light-1: #eaebec;
+  --light-2: #d7d8d9;
+
+  /*text*/
+  --title: 2rem;
+  --subtitle: 1.5rem;
+  --text: 1.25rem;
+  --paragraph: 1rem;
+
+  --title-w: 500;
+  --subtitle-w: 500;
+  --text-w: 500;
+  --paragraph-w: 400;
+}
+
 /* Remove default margin */
 body,
 h1,
@@ -87,7 +106,7 @@ select {
 
 /*------------------ Styling ---------------------*/
 header {
-  margin-bottom: 35px;
+  margin-bottom: 1rem;
 }
 
 .navbar-title {
@@ -123,4 +142,45 @@ a.active {
 
 a:hover {
   text-decoration-color: #373d3f;
+}
+footer {
+  margin-top: auto;
+}
+
+/*dev styles*/
+
+.title-text {
+  font-size: var(--title);
+  font-weight: var(--title-w);
+}
+
+.subtitle-text {
+  font-size: var(--subtitle);
+  font-weight: var(--subtitle-w);
+}
+
+.text-text {
+  font-size: var(--text);
+  font-weight: var(--text-w);
+}
+
+.paragraph-text {
+  font-size: var(--paragraph);
+  font-weight: var(--paragraph-w);
+}
+
+.dark {
+  background-color: var(--dark);
+}
+
+.light {
+  background-color: var(--light);
+}
+
+.light-1 {
+  background-color: var(--light-1);
+}
+
+.light-2 {
+  background-color: var(--light-2);
 }
